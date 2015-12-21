@@ -1,0 +1,16 @@
+H:\Boris\LibClassesConnect\LibClassesConnect\bin\Debug\LibClassesConnect.dll
+H:\Boris\LibClassesConnect\LibClassesConnect\bin\Debug\LibClassesConnect.pdb
+H:\Boris\LibClassesConnect\LibClassesConnect\obj\Debug\LibClassesConnect.dll
+H:\Boris\LibClassesConnect\LibClassesConnect\obj\Debug\LibClassesConnect.pdb
+C:\Users\BorisFanelle\Desktop\Cours\Boris\LibClassesConnect\LibClassesConnect\bin\Debug\LibClassesConnect.dll
+C:\Users\BorisFanelle\Desktop\Cours\Boris\LibClassesConnect\LibClassesConnect\bin\Debug\LibClassesConnect.pdb
+C:\Users\BorisFanelle\Desktop\Cours\Boris\LibClassesConnect\LibClassesConnect\obj\Debug\LibClassesConnect.dll
+C:\Users\BorisFanelle\Desktop\Cours\Boris\LibClassesConnect\LibClassesConnect\obj\Debug\LibClassesConnect.pdb
+F:\Fichiers\SLAM3 Autret\TP7 C# déconnectée\LibClassesConnect\LibClassesConnect\bin\Debug\LibClassesConnect.dll
+F:\Fichiers\SLAM3 Autret\TP7 C# déconnectée\LibClassesConnect\LibClassesConnect\bin\Debug\LibClassesConnect.pdb
+F:\Fichiers\SLAM3 Autret\TP7 C# déconnectée\LibClassesConnect\LibClassesConnect\obj\Debug\LibClassesConnect.dll
+F:\Fichiers\SLAM3 Autret\TP7 C# déconnectée\LibClassesConnect\LibClassesConnect\obj\Debug\LibClassesConnect.pdb
+G:\Fichiers\SLAM3 Autret\TP7 C# déconnectée\LibClassesConnect\LibClassesConnect\obj\Debug\LibClassesConnect.dll
+G:\Fichiers\SLAM3 Autret\TP7 C# déconnectée\LibClassesConnect\LibClassesConnect\obj\Debug\LibClassesConnect.pdb
+G:\Fichiers\SLAM3 Autret\TP7 C# déconnectée\LibClassesConnect\LibClassesConnect\bin\Debug\LibClassesConnect.dll
+G:\Fichiers\SLAM3 Autret\TP7 C# déconnectée\LibClassesConnect\LibClassesConnect\bin\Debug\LibClassesConnect.pdb
