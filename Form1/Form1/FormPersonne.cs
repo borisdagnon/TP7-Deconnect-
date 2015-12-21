@@ -13,7 +13,17 @@ namespace Form1
     public partial class FormPersonne : Form
     {
         private BindingSource bindingSource1 = new BindingSource();
+        public FormPersonne()
+        {
 
+            InitializeComponent();
+            chargedgv();
+            dataGV.AllowUserToAddRows = false;
+            dataGV.AllowUserToDeleteRows = false;
+            dataGV.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+
+
+        }
         public void chargedgv()
         {
             List<KeyValuePair<int, string>> FList = new List<KeyValuePair<int, string>>();
@@ -70,18 +80,7 @@ namespace Form1
             }
             dataGV.Refresh();
         }
-        public FormPersonne()
-        {
-           
-            InitializeComponent(); 
-            chargedgv();
-            dataGV.AllowUserToAddRows = false;
-            dataGV.AllowUserToDeleteRows = false;
-            dataGV.SelectionMode= DataGridViewSelectionMode.FullRowSelect;
-
-           
-            
-        }
+        
 
        
         
@@ -115,7 +114,7 @@ namespace Form1
             }
             else
             {
-                MessageBox.Show("Selectionner une ligne à modifier");
+                MessageBox.Show("Selectionnez une ligne à modifier");
             }
         }
         
@@ -124,8 +123,7 @@ namespace Form1
         {
             if (dataGV.SelectedRows.Count == 1)
             {
-                string i;
-                i = "Stéphanie";
+                
                 controller.crud_personne('d', dataGV.Rows[dataGV.SelectedRows[0].Index].Cells[0].Value.ToString());
                 bindingSource1.MoveLast();
                 bindingSource1.MoveFirst();

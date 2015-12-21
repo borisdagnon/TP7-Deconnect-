@@ -60,6 +60,18 @@
     <Compile Include="FormCRUD.Designer.cs">
       <DependentUpon>FormCRUD.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormCRUDFormation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCRUDFormation.Designer.cs">
+      <DependentUpon>FormCRUDFormation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFormation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFormation.Designer.cs">
+      <DependentUpon>FormFormation.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPersonne.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +85,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormCRUD.resx">
       <DependentUpon>FormCRUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCRUDFormation.resx">
+      <DependentUpon>FormCRUDFormation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFormation.resx">
+      <DependentUpon>FormFormation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPersonne.resx">
       <DependentUpon>FormPersonne.cs</DependentUpon>

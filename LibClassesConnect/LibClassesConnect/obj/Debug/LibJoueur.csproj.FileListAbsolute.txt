@@ -14,3 +14,7 @@ G:\Fichiers\SLAM3 Autret\TP7 C# déconnectée\LibClassesConnect\LibClassesConnec
 G:\Fichiers\SLAM3 Autret\TP7 C# déconnectée\LibClassesConnect\LibClassesConnect\obj\Debug\LibClassesConnect.pdb
 G:\Fichiers\SLAM3 Autret\TP7 C# déconnectée\LibClassesConnect\LibClassesConnect\bin\Debug\LibClassesConnect.dll
 G:\Fichiers\SLAM3 Autret\TP7 C# déconnectée\LibClassesConnect\LibClassesConnect\bin\Debug\LibClassesConnect.pdb
+H:\Fichiers\SLAM3 Autret\TP7 C# déconnectée\TP7-Deconnect-\LibClassesConnect\LibClassesConnect\bin\Debug\LibClassesConnect.dll
+H:\Fichiers\SLAM3 Autret\TP7 C# déconnectée\TP7-Deconnect-\LibClassesConnect\LibClassesConnect\bin\Debug\LibClassesConnect.pdb
+H:\Fichiers\SLAM3 Autret\TP7 C# déconnectée\TP7-Deconnect-\LibClassesConnect\LibClassesConnect\obj\Debug\LibClassesConnect.dll
+H:\Fichiers\SLAM3 Autret\TP7 C# déconnectée\TP7-Deconnect-\LibClassesConnect\LibClassesConnect\obj\Debug\LibClassesConnect.pdb

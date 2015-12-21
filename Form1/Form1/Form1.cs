@@ -24,10 +24,7 @@ namespace Form1
             FM.Show();
         }
 
-        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            controller.Vdmodel.sedeconnecter();
-        }
+       
 
         private void importToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -78,6 +75,21 @@ namespace Form1
                 controller.Vdmodel.sedeconnecter();
                 MessageBox.Show("Success Deconnetion", "Déconnetion de la BDD OKAY", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+            }
+        }
+
+        private void gestionDesFormationsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormFormation FF = new FormFormation();
+            FF.MdiParent = this;
+            FF.Show();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Voulez-vous quitter TP7 ?", "Quitter", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                e.Cancel = false;
             }
         }
 

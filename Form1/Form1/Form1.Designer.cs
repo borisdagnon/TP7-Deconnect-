@@ -61,14 +61,14 @@
             // importToolStripMenuItem
             // 
             this.importToolStripMenuItem.Name = "importToolStripMenuItem";
-            this.importToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.importToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.importToolStripMenuItem.Text = "import";
             this.importToolStripMenuItem.Click += new System.EventHandler(this.importToolStripMenuItem_Click);
             // 
             // exportToolStripMenuItem
             // 
             this.exportToolStripMenuItem.Name = "exportToolStripMenuItem";
-            this.exportToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exportToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.exportToolStripMenuItem.Text = "export";
             this.exportToolStripMenuItem.Click += new System.EventHandler(this.exportToolStripMenuItem_Click);
             // 
@@ -84,15 +84,16 @@
             // gestionDesPersonnesToolStripMenuItem
             // 
             this.gestionDesPersonnesToolStripMenuItem.Name = "gestionDesPersonnesToolStripMenuItem";
-            this.gestionDesPersonnesToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.gestionDesPersonnesToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.gestionDesPersonnesToolStripMenuItem.Text = "Gestion des personnes";
             this.gestionDesPersonnesToolStripMenuItem.Click += new System.EventHandler(this.gestionDesPersonnesToolStripMenuItem_Click);
             // 
             // gestionDesFormationsToolStripMenuItem
             // 
             this.gestionDesFormationsToolStripMenuItem.Name = "gestionDesFormationsToolStripMenuItem";
-            this.gestionDesFormationsToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.gestionDesFormationsToolStripMenuItem.Text = "gestion des formations";
+            this.gestionDesFormationsToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.gestionDesFormationsToolStripMenuItem.Text = "Gestion des formations";
+            this.gestionDesFormationsToolStripMenuItem.Click += new System.EventHandler(this.gestionDesFormationsToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -104,7 +105,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

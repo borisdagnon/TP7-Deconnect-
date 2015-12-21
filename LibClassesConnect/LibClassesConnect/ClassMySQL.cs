@@ -127,11 +127,10 @@ namespace LibClassesConnect
 
                 MySqlCommand vcommand2 = myConnection.CreateCommand();
 
-          /*      vcommand2.CommandText = "SELECT AUTO_INCREMENT as last_id FROM INFORMATION_SCHEMA.TABLES WHERE table_name = 'formation'";
-                UInt64 der_formation = (UInt64)vcommand2.ExecuteScalar();
+                UInt64 der_formation = (UInt64)vcommand.ExecuteScalar();
                 dataSetTP7.Tables[0].Columns[0].AutoIncrement = true;
                 dataSetTP7.Tables[0].Columns[0].AutoIncrementSeed = Convert.ToInt64(der_formation);
-                dataSetTP7.Tables[0].Columns[0].AutoIncrementStep = 1;*/
+                dataSetTP7.Tables[0].Columns[0].AutoIncrementStep = 1;
 
                 dv_formation = dataSetTP7.Tables[0].DefaultView;
                 dv_personne = dataSetTP7.Tables[1].DefaultView;
@@ -197,6 +196,11 @@ namespace LibClassesConnect
         }
 
 
+
+
+        /******************************************************************************************************************************************/
+
+        /*Méthodes pour expporter*/
         public void add_personne()
         {
             vaction = 'c';
